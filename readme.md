@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## INSTALLATION
+
+- copy .env.example and rename to .env and setup your configuration for Database
+- open terminal and type: `npm install` (to install node modules)
+- open new terminal type: `npm run watch` (to watch changes for reactjs)
+- open new terminal type: `php artisan migrate` (to setup the database tables)
+- open new terminal type: `php artisan serve` (to run the application http://127.0.0.1:8000/)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
